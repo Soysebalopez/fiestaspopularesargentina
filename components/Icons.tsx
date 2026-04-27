@@ -73,3 +73,41 @@ export const CheckIcon = ({ size = 18, color = "currentColor" }: IconProps) => (
     <path d="m5 12 5 5 9-11" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
+
+export const GasIcon = ({ size = 20, color = "currentColor" }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <rect x="4" y="3" width="9" height="18" rx="1.5" stroke={color} strokeWidth="1.6" />
+    <path d="M4 8h9M16 8l3 3v8a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-9Z" stroke={color} strokeWidth="1.6" strokeLinejoin="round" />
+    <path d="M16 6V4" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+  </svg>
+);
+
+export const BedIcon = ({ size = 20, color = "currentColor" }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M3 18v-9M21 18v-6a3 3 0 0 0-3-3H10v6" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+    <path d="M3 14h18M3 18h2M19 18h2" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+    <circle cx="6.5" cy="11.5" r="1.5" stroke={color} strokeWidth="1.6" />
+  </svg>
+);
+
+export const ForkIcon = ({ size = 20, color = "currentColor" }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M7 3v7a2 2 0 0 0 2 2v9M5 3v5a2 2 0 0 0 2 2M11 3v5a2 2 0 0 1-2 2M16 3c-2 0-3 2-3 5s1 4 3 4v9" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+  </svg>
+);
+
+export const ShareIcon = ({ size = 18, color = "currentColor" }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <circle cx="6" cy="12" r="2.5" stroke={color} strokeWidth="1.6" />
+    <circle cx="17" cy="6" r="2.5" stroke={color} strokeWidth="1.6" />
+    <circle cx="17" cy="18" r="2.5" stroke={color} strokeWidth="1.6" />
+    <path d="m8 11 7-4M8 13l7 4" stroke={color} strokeWidth="1.6" />
+  </svg>
+);
+
+export const CameraIcon = ({ size = 20, color = "currentColor" }: IconProps) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+    <path d="M3.5 8h3l1.5-2.5h8L17.5 8h3a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 20.5 20h-17A1.5 1.5 0 0 1 2 18.5v-9A1.5 1.5 0 0 1 3.5 8Z" stroke={color} strokeWidth="1.6" />
+    <circle cx="12" cy="13.5" r="3.5" stroke={color} strokeWidth="1.6" />
+  </svg>
+);

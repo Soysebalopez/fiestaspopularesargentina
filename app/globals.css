@@ -283,3 +283,37 @@ h1, h2, h3, .h-serif {
 @media (max-width: 560px) {
   .footer-top { grid-template-columns: 1fr !important; }
 }
+
+/* — Ficha — */
+.ficha-table { font-family: var(--f-sans); }
+.ficha-table th {
+  text-align: left;
+  padding: 12px 16px;
+  background: var(--n-100);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--n-700);
+  border-bottom: 2px solid var(--ink);
+}
+.ficha-table th:first-child { border-radius: 8px 0 0 0; }
+.ficha-table th:last-child  { border-radius: 0 8px 0 0; }
+.ficha-table td { padding: 14px 16px; border-bottom: 1px solid var(--n-200); }
+.ficha-table tbody tr:hover { background: var(--n-50); }
+
+@media (max-width: 980px) {
+  .ficha-body { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .ficha-body aside { position: static !important; }
+}
+
+/* — Trip Planner — */
+@media (max-width: 900px) {
+  .tp-layout { grid-template-columns: 1fr !important; }
+  .tp-sidebar {
+    position: relative !important;
+    max-height: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--n-100);
+  }
+  .tp-map { min-height: 60vh; }
+}
